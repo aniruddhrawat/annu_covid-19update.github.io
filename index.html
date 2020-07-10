@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Covid-19</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="bootstrap\bootstrap.css">
+	<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,400;1,500&family=Galada&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@500&display=swap" rel="stylesheet">
+	<style type="text/css">
+
+		*{
+			/*font-family: 'Galada', cursive;*/
+			font-family: 'Barlow Condensed', sans-serif;
+		}
+		.navbar{
+			background-color:#4d004d;
+		}
+		.nav-link{
+			display: block;
+			width: 100px;
+			height: 40px;
+			text-align: center;
+		}
+		.nav-link:hover{
+			border: 1px solid gray;
+		}
+		.annu{
+			border-radius: 50%;
+			
+		}
+		th{
+			font-family: 'PT Sans', sans-serif;
+		}
+		#marquee{
+			width: 100%;
+			margin: 0px auto;
+		}
+		#box{
+			width: 80%;
+			margin: 0px auto;
+		}
+	</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark">
+	<a class="navbar-brand text-white" href="#">COVID-19<img src="img/c_img.png" class="img-fluid"></a>
+	<button class="navbar-toggler">
+		<span id="anita" class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="annu">
+	<ul class="navbar-nav">
+		<li class="nav-item">
+			<a class="nav-link text-white" href="index.html">
+				Home
+			</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link text-white" href="about.html">
+				About Us
+			</a>
+		</li>
+		<li class="nav-item ">
+			<a class="nav-link text-white" href="index.html">
+				Refresh
+			</a>
+		</li>
+
+		
+	</ul>
+</div>
+</nav>
+<div id="box">
+<marquee class="text-danger" id="marquee" >
+	<strong>STAY at home</strong>&nbsp;&nbsp;&nbsp;<strong>KEEP a safe distance</strong>&nbsp;&nbsp;&nbsp;
+	<strong>WASH hands often</strong>&nbsp;&nbsp;&nbsp;<strong>COVER your cough</strong>&nbsp;&nbsp;&nbsp;
+	<strong>SICK? Call the helpline</strong>
+</marquee></div>
+<div class="container mt-5">
+
+	<div class="row">
+		<div class="col-md-6 text-center"><p><img src="img/annu.jpg" width="100" class="img-fluid annu"></p></div>
+		<div class="col-md-6 mt-5 text-center">
+			<strong>Author :</strong>Aniruddh Rawat<br>
+			<strong>Address :</strong>India,MP,Manpur
+		</div>
+	
+</div>
+
+</div>
+<div class="container mt-5">
+	<h2 class="text-primary">India <img src="img/c_img.png" class="img-fluid"> Covid-19 Update</h2>
+	<div class="table-responsive ">
+	<table class="table table-striped table-dark">
+		<thead>
+		<tr>
+			<th>NewConfirmed</th>
+			<th>NewDeaths</th>
+			<th>NewRecovered</th>
+			<th>TotalConfirmed</th>
+			<th>TotalDeaths</th>
+			<th>TotalRecovered</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td id="nc">..</td>
+			<td id="nd">..</td>
+			<td id="nr">..</td>
+			<td id="tc">..</td>
+			<td id="td">..</td>
+			<td id="tr">..</td>
+		</tr>
+	</tbody>
+	</table>
+</div>
+</div>
+<div class="container mt-3">
+  <h2 class="text-primary">Madhyapradesh <img src="img/c_img.png" class="img-fluid">covid-19</h2>
+  <p class="lead">Type name of district in the input field to search the Covid-19 update</p>  
+  <input class="form-control" id="myInput" type="text" placeholder="Search..">
+  <br>
+  
+<div class="table-responsive table-striped text-center">
+	<table class="table table-dark">
+		<thead>
+			<tr>
+			<th>District</th>
+			<th>Active</th>
+			<th>Confirmed</th>
+			<th>Deceased</th>
+			<th>Recovered</th>
+		</tr>
+		</thead>
+
+		<tbody id="myTable">
+			<tr>
+				<td>Agar Malwa</td>
+				<td id="ag1">...</td>
+				<td id="ag2">...</td>
+				<td id="ag3">...</td>
+				<td id="ag4">...</td>
+			</tr>
+			<tr>
+				<td>Alirajpur</td>
+				<td id="al1">...</td>
+				<td id="al2">...</td>
+				<td id="al3">...</td>
+				<td id="al4">...</td>
+			</tr>
+			<tr>
+				<td>Anuppur</td>
+				<td id="an1">...</td>
+				<td id="an2">...</td>
+				<td id="an3">...</td>
+				<td id="an4">...</td>
+			</tr>
+			<tr>
+				<td>Ashoknagar</td>
+				<td id="as1">...</td>
+				<td id="as2">...</td>
+				<td id="as3">...</td>
+				<td id="as4">...</td>
+			</tr>
+			<tr>
+				<td>Balaghat</td>
+				<td id="ba1">...</td>
+				<td id="ba2">...</td>
+				<td id="ba3">...</td>
+				<td id="ba4">...</td>
+			</tr>
+			<tr>
+				<td>Barwani</td>
+				<td id="bw1">...</td>
+				<td id="bw2">...</td>
+				<td id="bw3">...</td>
+				<td id="bw4">...</td>
+			</tr>
+			<tr>
+				<td>Betul</td>
+				<td id="bt1">...</td>
+				<td id="bt2">...</td>
+				<td id="bt3">...</td>
+				<td id="bt4">...</td>
+			</tr>
+			<tr>
+				<td>Bhind</td>
+				<td id="bhd1">...</td>
+				<td id="bhd2">...</td>
+				<td id="bhd3">...</td>
+				<td id="bhd4">...</td>
+			</tr>
+			<tr>
+				<td>Bhopal</td>
+				<td id="bhp1">...</td>
+				<td id="bhp2">...</td>
+				<td id="bhp3">...</td>
+				<td id="bhp4">...</td>
+			</tr>
+			<tr>
+				<td>Burhanpur</td>
+				<td id="brh1">...</td>
+				<td id="brh2">...</td>
+				<td id="brh3">...</td>
+				<td id="brh4">...</td>
+			</tr>
+			<tr>
+				<td>Chhatarpur</td>
+				<td id="chht1">...</td>
+				<td id="chht2">...</td>
+				<td id="chht3">...</td>
+				<td id="chht4">...</td>
+			</tr>
+			<tr>
+				<td>Chhindwara</td>
+				<td id="chhi1">...</td>
+				<td id="chhi2">...</td>
+				<td id="chhi3">...</td>
+				<td id="chhi4">...</td>
+			</tr>
+			<tr>
+				<td>Damoh</td>
+				<td id="damh1">...</td>
+				<td id="damh2">...</td>
+				<td id="damh3">...</td>
+				<td id="damh4">...</td>
+			</tr>
+			<tr>
+				<td>Datia</td>
+				<td id="dt1">...</td>
+				<td id="dt2">...</td>
+				<td id="dt3">...</td>
+				<td id="dt4">...</td>
+			</tr>
+			<tr>
+				<td>Dewas</td>
+				<td id="dws1">...</td>
+				<td id="dws2">...</td>
+				<td id="dws3">...</td>
+				<td id="dws4">...</td>
+			</tr>
+			<tr>
+				<td>Dhar</td>
+				<td id="dar1">...</td>
+				<td id="dar2">...</td>
+				<td id="dar3">...</td>
+				<td id="dar4">...</td>
+			</tr>
+			<tr>
+				<td>Dindori</td>
+				<td id="dind1">...</td>
+				<td id="dind2">...</td>
+				<td id="dind3">...</td>
+				<td id="dind4">...</td>
+			</tr>
+			<tr>
+				<td>Guna</td>
+				<td id="guna1">...</td>
+				<td id="guna2">...</td>
+				<td id="guna3">...</td>
+				<td id="guna4">...</td>
+			</tr>
+			<tr>
+				<td>Gwalior</td>
+				<td id="gw1">...</td>
+				<td id="gw2">...</td>
+				<td id="gw3">...</td>
+				<td id="gw4">...</td>
+			</tr>
+			<tr>
+				<td>Harda</td>
+				<td id="hr1">...</td>
+				<td id="hr2">...</td>
+				<td id="hr3">...</td>
+				<td id="hr4">...</td>
+			</tr>
+			<tr>
+				<td>Hoshangabad</td>
+				<td id="hsng1">...</td>
+				<td id="hsng2">...</td>
+				<td id="hsng3">...</td>
+				<td id="hsng4">...</td>
+			</tr>
+			<tr>
+				<td>Indore</td>
+				<td id="in1">...</td>
+				<td id="in2">...</td>
+				<td id="in3">...</td>
+				<td id="in4">...</td>
+			</tr>
+			<tr>
+				<td>Jabalpur</td>
+				<td id="jb1">...</td>
+				<td id="jb2">...</td>
+				<td id="jb3">...</td>
+				<td id="jb4">...</td>
+			</tr>
+			<tr>
+				<td>Jhabua</td>
+				<td id="jh1">...</td>
+				<td id="jh2">...</td>
+				<td id="jh3">...</td>
+				<td id="jh4">...</td>
+			</tr>
+			<tr>
+				<td>Katni</td>
+				<td id="kt1">...</td>
+				<td id="kt2">...</td>
+				<td id="kt3">...</td>
+				<td id="kt4">...</td>
+			</tr>
+			<tr>
+				<td>Khandwa</td>
+				<td id="kh1">...</td>
+				<td id="kh2">...</td>
+				<td id="kh3">...</td>
+				<td id="kh4">...</td>
+			</tr>
+			<tr>
+				<td>Khargone</td>
+				<td id="kg1">...</td>
+				<td id="kg2">...</td>
+				<td id="kg3">...</td>
+				<td id="kg4">...</td>
+			</tr>
+			<tr>
+				<td>Mandla</td>
+				<td id="md1">...</td>
+				<td id="md2">...</td>
+				<td id="md3">...</td>
+				<td id="md4">...</td>
+			</tr>
+			<tr>
+				<td>Mandsaur</td>
+				<td id="mds1">...</td>
+				<td id="mds2">...</td>
+				<td id="mds3">...</td>
+				<td id="mds4">...</td>
+			</tr>
+			<tr>
+				<td>Morena</td>
+				<td id="mo1">...</td>
+				<td id="mo2">...</td>
+				<td id="mo3">...</td>
+				<td id="mo4">...</td>
+			</tr>
+			<tr>
+				<td>Narsinghpur</td>
+				<td id="nr1">...</td>
+				<td id="nr2">...</td>
+				<td id="nr3">...</td>
+				<td id="nr4">...</td>
+			</tr>
+			<tr>
+				<td>Neemuch</td>
+				<td id="ne1">...</td>
+				<td id="ne2">...</td>
+				<td id="ne3">...</td>
+				<td id="ne4">...</td>
+			</tr>
+			<tr>
+				<td>Niwari</td>
+				<td id="nw1">...</td>
+				<td id="nw2">...</td>
+				<td id="nw3">...</td>
+				<td id="nw4">...</td>
+			</tr>
+			<tr>
+				<td>Other Region</td>
+				<td id="or1">...</td>
+				<td id="or2">...</td>
+				<td id="or3">...</td>
+				<td id="or4">...</td>
+			</tr>
+			<tr>
+				<td>Panna</td>
+				<td id="pn1">...</td>
+				<td id="pn2">...</td>
+				<td id="pn3">...</td>
+				<td id="pn4">...</td>
+			</tr>
+			<tr>
+				<td>Raisen</td>
+				<td id="rs1">...</td>
+				<td id="rs2">...</td>
+				<td id="rs3">...</td>
+				<td id="rs4">...</td>
+			</tr>
+			<tr>
+				<td>Rajgarh</td>
+				<td id="rg1">...</td>
+				<td id="rg2">...</td>
+				<td id="rg3">...</td>
+				<td id="rg4">...</td>
+			</tr>
+			<tr>
+				<td>Ratlam</td>
+				<td id="rt1">...</td>
+				<td id="rt2">...</td>
+				<td id="rt3">...</td>
+				<td id="rt4">...</td>
+			</tr>
+			<tr>
+				<td>Rewa</td>
+				<td id="rw1">...</td>
+				<td id="rw2">...</td>
+				<td id="rw3">...</td>
+				<td id="rw4">...</td>
+			</tr>
+			<tr>
+				<td>Sagar</td>
+				<td id="sg1">...</td>
+				<td id="sg2">...</td>
+				<td id="sg3">...</td>
+				<td id="sg4">...</td>
+			</tr>
+			<tr>
+				<td>Satna</td>
+				<td id="st1">...</td>
+				<td id="st2">...</td>
+				<td id="st3">...</td>
+				<td id="st4">...</td>
+			</tr>
+			<tr>
+				<td>Sehore</td>
+				<td id="sh1">...</td>
+				<td id="sh2">...</td>
+				<td id="sh3">...</td>
+				<td id="sh4">...</td>
+			</tr>
+			<tr>
+				<td>Seoni</td>
+				<td id="se1">...</td>
+				<td id="se2">...</td>
+				<td id="se3">...</td>
+				<td id="se4">...</td>
+			</tr>
+			<tr>
+				<td>Shahdol</td>
+				<td id="sd1">...</td>
+				<td id="sd2">...</td>
+				<td id="sd3">...</td>
+				<td id="sd4">...</td>
+			</tr>
+			<tr>
+				<td>Shajapur</td>
+				<td id="sj1">...</td>
+				<td id="sj2">...</td>
+				<td id="sj3">...</td>
+				<td id="sj4">...</td>
+			</tr>
+			<tr>
+				<td>Sheopur</td>
+				<td id="she1">...</td>
+				<td id="she2">...</td>
+				<td id="she3">...</td>
+				<td id="she4">...</td>
+			</tr>
+			<tr>
+				<td>Shivpuri</td>
+				<td id="sp1">...</td>
+				<td id="sp2">...</td>
+				<td id="sp3">...</td>
+				<td id="sp4">...</td>
+			</tr>
+			<tr>
+				<td>Sidhi</td>
+				<td id="sid1">...</td>
+				<td id="sid2">...</td>
+				<td id="sid3">...</td>
+				<td id="sid4">...</td>
+			</tr>
+			<tr>
+				<td>Singrauli</td>
+				<td id="sig1">...</td>
+				<td id="sig2">...</td>
+				<td id="sig3">...</td>
+				<td id="sig4">...</td>
+			</tr>
+			<tr>
+				<td>Tikamgarh</td>
+				<td id="tk1">...</td>
+				<td id="tk2">...</td>
+				<td id="tk3">...</td>
+				<td id="tk4">...</td>
+			</tr>
+			<tr>
+				<td>Ujjain</td>
+				<td id="uj1">...</td>
+				<td id="uj2">...</td>
+				<td id="uj3">...</td>
+				<td id="uj4">...</td>
+			</tr>
+			<tr>
+				<td>Umaria</td>
+				<td id="um1">...</td>
+				<td id="um2">...</td>
+				<td id="um3">...</td>
+				<td id="um4">...</td>
+			</tr>
+			<tr>
+				<td>Vidisha</td>
+				<td id="vi1">...</td>
+				<td id="vi2">...</td>
+				<td id="vi3">...</td>
+				<td id="vi4">...</td>
+			</tr>
+
+		</tbody>
+
+	</table>
+</div>
+  
+ 
+</div>
+
+
+<div class="container mt-5">
+
+	<h5>How To Prevent from <img src="img/c_img.png" class="img-fluid"> Covid-19</h5>
+	<p>Clean your hands often. Use soap and water, or an alcohol-based hand rub.
+	Maintain a safe distance from anyone who is coughing or sneezing.
+Wear a mask when physical distancing is not possible.
+Don’t touch your eyes, nose or mouth.
+Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.
+Stay home if you feel unwell.
+If you have a fever, cough and difficulty breathing, seek medical attention.
+Calling in advance allows your healthcare provider to quickly direct you to the right health facility. This protects you, and prevents the spread of viruses and other infections.
+Masks
+Masks can help prevent the spread of the virus from the person wearing the mask to others. Masks alone do not protect against COVID-19, and should be combined with physical distancing and hand hygiene. Follow the advice provided by your local health authority.</p>
+</div>
+<div class="footer bg-dark mt-5">
+	<p class="text-white text-center">All Right Deserved 2020 Designed By-Aniruddh Rawat</p>
+</div>
+
+<script src="bootstrap\jquery-3.5.0.min.js"></script>
+<script src="bootstrap\bootstrap.js"></script>
+<script src="js\script.js"></script>
+</body>
+</html>
